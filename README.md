@@ -65,7 +65,7 @@ I build intelligent systems that solve real-world problems — from computer vis
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [Train-Your-Model](https://github.com/vanix056/Train-Your-Model)
 A no-code AutoML platform that lets users upload datasets, configure hyperparameters via a UI, and train machine learning models — no code required. Designed to democratise ML for non-technical users.  

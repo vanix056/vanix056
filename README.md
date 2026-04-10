@@ -1,4 +1,4 @@
-# Hi, I'm Vanix
+# Hi, I'm M Abdullah Waqar
 
 **Machine Learning Engineer · AI Developer · Full Stack Developer**
 
@@ -6,7 +6,7 @@ I build intelligent systems that solve real-world problems — from computer vis
 
 ---
 
-## 🧠 Skills
+##  Skills
 
 ### Machine Learning & AI
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)

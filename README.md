@@ -4,9 +4,9 @@
 
 <p>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/github/repo-size/vanix056/vanix056?style=for-the-badge&logo=github&color=blue&label=Repo%20Size">
+  <img src="https://img.shields.io/github/followers/vanix056?style=for-the-badge&logo=github&color=blue&label=Followers">
   <img src="https://img.shields.io/github/last-commit/vanix056/vanix056?style=for-the-badge&logo=github&color=brightgreen&label=Last%20Commit">
-  <img src="https://img.shields.io/github/stars/vanix056/vanix056?style=for-the-badge&logo=github&color=gold&label=Stars">
+  <img src="https://img.shields.io/github/stars/vanix056?style=for-the-badge&logo=github&color=gold&label=Stars">
   <img src="https://img.shields.io/github/issues/vanix056/vanix056?style=for-the-badge&logo=github&color=red&label=Issues">
 </p>
 

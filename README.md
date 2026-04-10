@@ -14,10 +14,12 @@ I build intelligent systems that solve real-world problems — from computer vis
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat&logo=qiskit&logoColor=white)
 
 - Deep Learning: CNN, RNN, Transformers (BERT, DeepSeek R1)
 - Computer Vision: Object Detection, Emotion Recognition, Gesture Control
-- NLP: Text Summarization, Sentiment Analysis, Chatbot Development
+- NLP: Text Summarization, Sentiment Analysis, Chatbot Development (RAG)
+- Quantum Computing: Variational Quantum Eigensolver (VQE), Quantum Chemistry
 - AutoML · Model Training Pipelines · Predictive Modelling
 
 ### Programming Languages
@@ -68,10 +70,10 @@ Intelligent log analysis system that classifies system logs using a hybrid appro
 
 ---
 
-### [Emotion Detection](https://github.com/vanix056/Emotion-Detection)
-Real-time facial emotion recognition system using deep learning to classify emotional states from live video streams. Applicable in human-computer interaction and sentiment-aware systems.  
-**Tech Stack:** Python, Keras, OpenCV, CNN  
-**Highlight:** Real-time inference with per-frame emotion classification
+### [Heatwave Risk Prediction](https://github.com/vanix056/Heatwave-Risk-Prediction-for-Major-Pakistani-Cities)
+Data-driven analysis and forecasting of heatwave patterns across major Pakistani cities using historical climate data. Provides actionable risk predictions for future periods.  
+**Tech Stack:** Python, Pandas, Scikit-learn, Matplotlib  
+**Highlight:** Time-series analysis combined with ML-based future prediction for real-world climate impact
 
 ---
 
@@ -82,17 +84,17 @@ Real-time multi-object detection using MobileNet SSD trained on the COCO dataset
 
 ---
 
-### [News Summarizer & Sentiment Analyzer](https://github.com/vanix056/News-Summarizer)
-Automated pipeline that fetches news articles, generates concise summaries, and classifies overall sentiment (positive, negative, neutral). Reduces information overload for end users.  
-**Tech Stack:** Python, NLP, Transformers  
-**Highlight:** Combined abstractive summarisation with sentiment analysis in a single pipeline
+### [NUST Admissions Guide Chatbot](https://github.com/vanix056/Nust-admissions-guide)
+RAG-based LLM chatbot built for a university chatbot competition, answering NUST admissions queries by retrieving answers from institutional knowledge documents.  
+**Tech Stack:** Python, LLM, RAG, Vector Embeddings  
+**Highlight:** End-to-end retrieval-augmented generation pipeline on a real-world institutional domain
 
 ---
 
-### [Heatwave Risk Prediction](https://github.com/vanix056/Heatwave-Risk-Prediction-for-Major-Pakistani-Cities)
-Data-driven analysis and forecasting of heatwave patterns across major Pakistani cities using historical climate data. Provides actionable risk predictions for future periods.  
-**Tech Stack:** Python, Pandas, Scikit-learn, Matplotlib  
-**Highlight:** Time-series analysis combined with ML-based future prediction
+### [VQE — Quantum Computing Research](https://github.com/vanix056/VQE)
+Research implementation of the Variational Quantum Eigensolver (VQE) to calculate binding energies and ground state energies of molecular systems, developed for the CETQAP research programme.  
+**Tech Stack:** Python, Qiskit, VQE, Quantum Chemistry  
+**Highlight:** Applied quantum computing research bridging physics, mathematics, and computational science
 
 ---
 

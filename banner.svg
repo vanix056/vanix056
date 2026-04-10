@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+  <defs>
+    <!-- Main background gradient: dark blue → near-black → deep purple -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#050d1a"/>
+      <stop offset="45%"  stop-color="#0a0a14"/>
+      <stop offset="100%" stop-color="#120826"/>
+    </linearGradient>
+
+    <!-- Cyan glow radial behind name -->
+    <radialGradient id="glow" cx="38%" cy="50%" r="40%">
+      <stop offset="0%"  stop-color="#00d4ff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Purple glow radial on right -->
+    <radialGradient id="glowRight" cx="80%" cy="55%" r="35%">
+      <stop offset="0%"  stop-color="#7c3aed" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle grid line pattern -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#1a2a4a" stroke-width="0.4" opacity="0.6"/>
+    </pattern>
+
+    <!-- Node glow filter -->
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Text glow filter -->
+    <filter id="textGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Cyan line glow -->
+    <filter id="lineGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+  <rect width="1500" height="500" fill="url(#grid)"/>
+  <rect width="1500" height="500" fill="url(#glow)"/>
+  <rect width="1500" height="500" fill="url(#glowRight)"/>
+
+  <!-- ── Horizontal accent line (top) ── -->
+  <line x1="0" y1="3" x2="1500" y2="3" stroke="#00d4ff" stroke-width="2" opacity="0.5"/>
+  <!-- ── Horizontal accent line (bottom) ── -->
+  <line x1="0" y1="497" x2="1500" y2="497" stroke="#7c3aed" stroke-width="2" opacity="0.5"/>
+
+  <!-- ════════════════════════════════════════════
+       NEURAL NETWORK — right-side decorative area
+       Nodes layout (cx, cy) with connection lines
+       ════════════════════════════════════════════ -->
+
+  <!-- Connection lines (layer 1 → layer 2) -->
+  <g stroke="#00d4ff" stroke-width="0.7" opacity="0.25" filter="url(#lineGlow)">
+    <line x1="1060" y1="120" x2="1160" y2="90"/>
+    <line x1="1060" y1="120" x2="1160" y2="190"/>
+    <line x1="1060" y1="120" x2="1160" y2="290"/>
+    <line x1="1060" y1="220" x2="1160" y2="90"/>
+    <line x1="1060" y1="220" x2="1160" y2="190"/>
+    <line x1="1060" y1="220" x2="1160" y2="290"/>
+    <line x1="1060" y1="220" x2="1160" y2="390"/>
+    <line x1="1060" y1="320" x2="1160" y2="190"/>
+    <line x1="1060" y1="320" x2="1160" y2="290"/>
+    <line x1="1060" y1="320" x2="1160" y2="390"/>
+    <line x1="1060" y1="420" x2="1160" y2="290"/>
+    <line x1="1060" y1="420" x2="1160" y2="390"/>
+  </g>
+
+  <!-- Connection lines (layer 2 → layer 3) -->
+  <g stroke="#7c3aed" stroke-width="0.7" opacity="0.25" filter="url(#lineGlow)">
+    <line x1="1160" y1="90"  x2="1260" y2="150"/>
+    <line x1="1160" y1="90"  x2="1260" y2="250"/>
+    <line x1="1160" y1="190" x2="1260" y2="150"/>
+    <line x1="1160" y1="190" x2="1260" y2="250"/>
+    <line x1="1160" y1="190" x2="1260" y2="350"/>
+    <line x1="1160" y1="290" x2="1260" y2="150"/>
+    <line x1="1160" y1="290" x2="1260" y2="250"/>
+    <line x1="1160" y1="290" x2="1260" y2="350"/>
+    <line x1="1160" y1="390" x2="1260" y2="250"/>
+    <line x1="1160" y1="390" x2="1260" y2="350"/>
+  </g>
+
+  <!-- Connection lines (layer 3 → layer 4) -->
+  <g stroke="#00d4ff" stroke-width="0.7" opacity="0.20" filter="url(#lineGlow)">
+    <line x1="1260" y1="150" x2="1360" y2="120"/>
+    <line x1="1260" y1="150" x2="1360" y2="250"/>
+    <line x1="1260" y1="250" x2="1360" y2="120"/>
+    <line x1="1260" y1="250" x2="1360" y2="250"/>
+    <line x1="1260" y1="250" x2="1360" y2="380"/>
+    <line x1="1260" y1="350" x2="1360" y2="250"/>
+    <line x1="1260" y1="350" x2="1360" y2="380"/>
+  </g>
+
+  <!-- Extra scattered faint lines for depth -->
+  <g stroke="#00d4ff" stroke-width="0.4" opacity="0.12">
+    <line x1="1060" y1="120" x2="1260" y2="250"/>
+    <line x1="1060" y1="420" x2="1260" y2="150"/>
+    <line x1="1160" y1="90"  x2="1360" y2="380"/>
+    <line x1="1060" y1="220" x2="1360" y2="120"/>
+  </g>
+
+  <!-- Layer 1 nodes -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="1060" cy="120" r="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="1060" cy="220" r="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="1060" cy="320" r="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="1060" cy="420" r="4" fill="#00d4ff" opacity="0.7"/>
+  </g>
+
+  <!-- Layer 2 nodes -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="1160" cy="90"  r="5" fill="#7c3aed" opacity="0.9"/>
+    <circle cx="1160" cy="190" r="5" fill="#7c3aed" opacity="0.9"/>
+    <circle cx="1160" cy="290" r="5" fill="#7c3aed" opacity="0.9"/>
+    <circle cx="1160" cy="390" r="4" fill="#7c3aed" opacity="0.7"/>
+  </g>
+
+  <!-- Layer 3 nodes -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="1260" cy="150" r="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="1260" cy="250" r="6" fill="#00d4ff" opacity="1.0"/>
+    <circle cx="1260" cy="350" r="5" fill="#00d4ff" opacity="0.9"/>
+  </g>
+
+  <!-- Layer 4 (output) nodes -->
+  <g filter="url(#nodeGlow)">
+    <circle cx="1360" cy="120" r="5" fill="#7c3aed" opacity="0.9"/>
+    <circle cx="1360" cy="250" r="6" fill="#7c3aed" opacity="1.0"/>
+    <circle cx="1360" cy="380" r="5" fill="#7c3aed" opacity="0.9"/>
+  </g>
+
+  <!-- Floating ambient dots (scattered) -->
+  <g opacity="0.35">
+    <circle cx="950" cy="80"  r="2" fill="#00d4ff"/>
+    <circle cx="980" cy="200" r="1.5" fill="#7c3aed"/>
+    <circle cx="1010" cy="350" r="2" fill="#00d4ff"/>
+    <circle cx="1090" cy="460" r="1.5" fill="#7c3aed"/>
+    <circle cx="1200" cy="460" r="2" fill="#00d4ff"/>
+    <circle cx="1300" cy="50"  r="2" fill="#7c3aed"/>
+    <circle cx="1400" cy="460" r="1.5" fill="#00d4ff"/>
+    <circle cx="1450" cy="200" r="2" fill="#7c3aed"/>
+    <circle cx="1470" cy="80"  r="1.5" fill="#00d4ff"/>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       CODE SNIPPET decoration (left-ish area)
+       ════════════════════════════════════════ -->
+  <g font-family="'Courier New', Courier, monospace" font-size="13" opacity="0.13" fill="#00d4ff">
+    <text x="60" y="60">import torch</text>
+    <text x="60" y="82">from transformers import AutoModel</text>
+    <text x="60" y="104">import numpy as np</text>
+    <text x="60" y="438">model = build_ai_pipeline(data)</text>
+    <text x="60" y="460">outputs = model.predict(inputs)</text>
+    <text x="60" y="482">deploy(outputs, env="production")</text>
+  </g>
+
+  <!-- ════════════════════════════════════════
+       VERTICAL DIVIDER LINE
+       ════════════════════════════════════════ -->
+  <line x1="1020" y1="40" x2="1020" y2="460" stroke="#1e3a5a" stroke-width="1" opacity="0.6"/>
+
+  <!-- ════════════════════════════════════════
+       MAIN TEXT CONTENT
+       ════════════════════════════════════════ -->
+
+  <!-- Name -->
+  <text
+    x="100" y="195"
+    font-family="'Segoe UI', 'Arial', sans-serif"
+    font-size="64"
+    font-weight="700"
+    letter-spacing="1"
+    fill="#ffffff"
+    filter="url(#textGlow)"
+  >M Abdullah Waqar</text>
+
+  <!-- Cyan underline accent under name -->
+  <rect x="100" y="205" width="520" height="3" fill="#00d4ff" rx="2" opacity="0.85"/>
+
+  <!-- Title row -->
+  <text
+    x="100" y="262"
+    font-family="'Segoe UI', 'Arial', sans-serif"
+    font-size="22"
+    font-weight="400"
+    letter-spacing="2"
+    fill="#00d4ff"
+    opacity="0.95"
+  >Machine Learning Engineer  ·  AI Developer  ·  Full Stack Developer</text>
+
+  <!-- Tagline -->
+  <text
+    x="102" y="316"
+    font-family="'Segoe UI', 'Arial', sans-serif"
+    font-size="17"
+    font-weight="300"
+    letter-spacing="3"
+    fill="#a78bfa"
+    opacity="0.90"
+  >⚡  Building intelligent systems that learn, adapt, and scale</text>
+
+  <!-- Subtle label tags -->
+  <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="12" font-weight="500" letter-spacing="1">
+    <!-- ML tag -->
+    <rect x="100" y="355" width="110" height="26" rx="5" fill="#00d4ff" fill-opacity="0.12" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="155" y="373" text-anchor="middle" fill="#00d4ff">Machine Learning</text>
+
+    <!-- AI tag -->
+    <rect x="222" y="355" width="80" height="26" rx="5" fill="#7c3aed" fill-opacity="0.12" stroke="#7c3aed" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="262" y="373" text-anchor="middle" fill="#a78bfa">AI / LLMs</text>
+
+    <!-- Full Stack tag -->
+    <rect x="314" y="355" width="110" height="26" rx="5" fill="#00d4ff" fill-opacity="0.12" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="369" y="373" text-anchor="middle" fill="#00d4ff">Full Stack Dev</text>
+
+    <!-- Quantum tag -->
+    <rect x="436" y="355" width="130" height="26" rx="5" fill="#7c3aed" fill-opacity="0.12" stroke="#7c3aed" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="501" y="373" text-anchor="middle" fill="#a78bfa">Quantum Computing</text>
+  </g>
+
+  <!-- GitHub handle -->
+  <text
+    x="102" y="450"
+    font-family="'Courier New', Courier, monospace"
+    font-size="14"
+    letter-spacing="1"
+    fill="#4a9eff"
+    opacity="0.70"
+  >github.com/vanix056</text>
+
+</svg>

@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
   <img src="https://img.shields.io/github/followers/vanix056?style=for-the-badge&logo=github&color=blue&label=Followers">
   <img src="https://img.shields.io/github/last-commit/vanix056/vanix056?style=for-the-badge&logo=github&color=brightgreen&label=Last%20Commit">
-  <img src="https://img.shields.io/github/stars/vanix056?affiliations=OWNER&style=for-the-badge&logo=github&color=gold&label=Stars">
   <img src="https://img.shields.io/github/issues/vanix056/vanix056?style=for-the-badge&logo=github&color=red&label=Issues">
 </p>
 
@@ -156,66 +155,4 @@ Research implementation of the Variational Quantum Eigensolver (VQE) to calculat
   <i>"Building systems that learn, adapt, and scale."</i>
 </p>
 
----
 
-## 🎨 Banner Design Reference
-
-> The profile banner (`banner.svg`) was custom-built as an SVG and is fully editable.
-
-### AI Image Generation Prompt
-```
-Ultra-wide 1500x500 px GitHub profile banner for a Machine Learning & AI engineer.
-Dark background blending deep navy blue (#050d1a), near-black (#0a0a14), and deep purple (#120826).
-Subtle grid overlay. Abstract neural network with glowing cyan (#00d4ff) and purple (#7c3aed)
-nodes and connecting lines on the right half. Left side shows clean, modern sans-serif typography:
-large bold white name "M Abdullah Waqar", cyan subtitle "Machine Learning Engineer · AI Developer
-· Full Stack Developer", and a purple tagline. Faint Python/PyTorch import statements as
-decorative code lines. Minimal, professional, tech-forward aesthetic. No stock photos.
-```
-
-### Alternative Design Variations
-| Variation | Description |
-|-----------|-------------|
-| **Light Mode** | White/light-grey background with dark navy text and blue-green accents |
-| **Neon Noir** | Pure black background, high-contrast hot-pink + cyan neon glow nodes |
-| **Ocean Depth** | Teal-to-midnight gradient with bioluminescent particle network |
-| **Terminal** | Full green-on-black CRT terminal look with ASCII-art neural net |
-
-### Color Palette
-| Role | Color | Hex |
-|------|-------|-----|
-| Background (start) | Dark Navy | `#050d1a` |
-| Background (mid) | Near-Black | `#0a0a14` |
-| Background (end) | Deep Purple | `#120826` |
-| Primary Accent | Cyan | `#00d4ff` |
-| Secondary Accent | Purple | `#7c3aed` |
-| Accent (muted) | Lavender | `#a78bfa` |
-| Grid Lines | Steel Blue | `#1a2a4a` |
-| Body Text | White | `#ffffff` |
-
-### Typography Suggestions
-| Use | Font | Weight | Notes |
-|-----|------|--------|-------|
-| Name / Headline | Segoe UI, Inter, or Poppins | 700 Bold | 60–72 px, slight letter-spacing |
-| Subtitle / Titles | Segoe UI, Roboto | 400 Regular | 20–24 px, 2 px letter-spacing |
-| Tagline | Segoe UI Light | 300 Light | 16–18 px, 3 px letter-spacing |
-| Code decoration | Courier New, JetBrains Mono | 400 | 12–14 px, low opacity |
-
-### Layout Structure
-```
-┌─────────────────────────────────────────────┬────────────────────┐
-│  [code lines — top left, 10% opacity]        │                    │
-│                                              │   ●────●           │
-│   M Abdullah Waqar  ← 64px Bold White        │  ╱│╲  ╱│           │
-│   ━━━━━━━━━━━━━━━━ ← cyan 3px underline     │ ● │ ● │ ●          │
-│                                              │  ╲│╱  ╲│           │
-│   ML Engineer · AI Dev · Full Stack ← cyan  │   ●────●           │
-│   ⚡ Building intelligent systems... ← lilac │                    │
-│                                              │  Neural network    │
-│   [ML] [AI] [FullStack] [Quantum] ← tags    │  node graph        │
-│                                              │  (right ~30%)      │
-│  [code lines — bottom left, 10% opacity]    │                    │
-│  github.com/vanix056                         │                    │
-└─────────────────────────────────────────────┴────────────────────┘
-  ← 68% text / branding area →  ← 32% neural net decoration →
-```
